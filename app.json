@@ -2,8 +2,8 @@
   "expo": {
     "name": "ReactEXPOCRUD",
     "slug": "ReactEXPOCRUD",
-    "version": "1.0.0",
-    "orientation": "portrait",
+    "version": "1.1.0",
+    "orientation": "portrait and landscape",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -18,13 +18,20 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode":3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.didin1.ReactEXPOCRUD"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5f39596a-c60f-4258-87c0-5cd7bc50247d"
+      }
     }
   }
 }
